@@ -1,0 +1,2 @@
+# SlushAI
+Created with CodeSandbox
