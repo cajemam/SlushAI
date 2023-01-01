@@ -23,8 +23,8 @@ const createForm = function(){
     let form_body_form_input_name = document.createElement('input');
     form_body_form_input_name.classList.add('action-form-input','input-name');
     let form_body_form_input_email = document.createElement('input');
-    form_body_form_input_email.setAttribute('placeholder', 'John Doe');
-    form_body_form_input_email.setAttribute('name', 'name');
+    form_body_form_input_name.setAttribute('placeholder', 'John Doe');
+    form_body_form_input_name.setAttribute('name', 'name');
     form_body_form_input_email.classList.add('action-form-input','input-email');
     form_body_form_input_email.setAttribute('placeholder', 'somemail@example.com');
     form_body_form_input_email.setAttribute('name', 'email');
